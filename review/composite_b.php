@@ -107,7 +107,7 @@ imagecopy($im, $imgs_img, 0, 0, 0, 0, 1200, 628);
 $FileName1 = substr(uniqid(true, true), 0, 20); //取一段亂數名稱
 imagejpeg($im, 'pic/' . $FileName1 . '.jpg');
 
-$ok = outputJSON(true, array("filename" => $FileName1.'.jpg', "imagepath" => 'http://localhost:81/test/pic/'. $FileName1 . '.jpg'));
+$ok = outputJSON(true, array("filename" => $FileName1.'.jpg', "imagepath" => 'https://github.com/zonghan80/review/tree/master/review/pic/'. $FileName1 . '.jpg'));
 
 echo $ok;
 

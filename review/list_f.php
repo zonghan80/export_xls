@@ -202,64 +202,7 @@ session_start();
 				});
 				$('#del').click(function () {
 				});	
-				/*$('#send').click(function () { //按下按鈕後執行function
-					var search = $('#search').val();
-					
-					$.ajax({
-						url: "_search.php", //要連線的php
-						data: {
-							search: search,
-						}, //要傳的欄位id: $_POST['xx']
-						type: "POST", //連線方式
-						dataType: "json",
-						success: function (json) {  //成功後 alert訊息 後重整資料
-							if (json.flag) {
-								$('#shelves_y').hide();
-								$('#sname_serach').show();
-								if(json.data.yn == 'Y'){
-								$("input[name='select_item']").prop("checked", true);
-								
-								}
-								$("input[name='select_item']").val(json.data.no);
-								$("#sn").html(json.data.sn);
-								$("#img").attr("src","../../upload/"+json.data.img);
-								$("#time").html(json.data.time);
-								$("#yn").html(json.data.yn);
-								console.log(json);
-								//location.reload();
-							}
 
-						}
-					});
-                });
-
-				$("input[name='select_item']").change(function() {
-					if(confirm("確定要修改顯示??"))
-					{
-						var select = $(this).val();
-						
-						$.ajax({
-                                    url: "_change.php", //要連線的php
-                                    data: {
-										select: select,
-                                    }, //要傳的欄位id: $_POST['xx']
-                                    type: "POST", //連線方式
-                                    dataType: "json",
-                                    success: function (json) {  //成功後 alert訊息 後重整資料
-                                        if (json.flag) {
-											console.log(json);
-                                            location.reload();
-                                        }
-
-                                    }
-                                });
-					}
-					else
-					{
-					alert("你按下取消");
-					}
-					
-				});*/
             });
         </script>		
 	</body>			
