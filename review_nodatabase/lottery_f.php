@@ -48,13 +48,13 @@ session_start();
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li>
-                            <a href="composite_f.html">合圖</a>
+                            <a href="composite_f.php">合圖</a>
                         </li>
                         <li>
-                            <a href="index.html">抽獎</a>
-                        </li>  
+                            <a href="lottery_f.php">抽獎</a>
+                        </li> 
 						<li>
-                            <a href="list_f.html">列表</a>
+                            <a href="list_f.php">列表</a>
                         </li> 						
                     </ul>
                 </div>
@@ -71,9 +71,9 @@ session_start();
                 <div class="col-md-3">
                     <p class="lead">Review</p>
                     <div class="list-group">
-                        <a href="composite_f.html" class="list-group-item">合圖</a>
-                        <a href="index.html" class="list-group-item active">抽獎</a>
-                        <a href="list_f.html" class="list-group-item">列表</a>							
+                        <a href="composite_f.php" class="list-group-item">合圖</a>
+                        <a href="lottery_f.php" class="list-group-item active">抽獎</a>
+                        <a href="list_f.php" class="list-group-item">列表</a>							
                     </div>
                 </div>
 
